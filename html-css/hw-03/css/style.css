@@ -7,19 +7,19 @@
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
-  position: absolute;
+	position: absolute;
 
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
 
-  white-space: nowrap;
+	white-space: nowrap;
 
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 
 .container {
@@ -29,7 +29,8 @@ input[type="radio"].visually-hidden {
 }
 
 /* site navigation */
-.navigation_ul {
+
+.nav-ul {
 	list-style: none;
 	text-transform: uppercase;
 	text-align: center;
@@ -39,13 +40,14 @@ input[type="radio"].visually-hidden {
 	margin-bottom: 104px;
 }
 
-.navigation_li {
+
+.nav-li {
 	display: inline;
 	padding-left: 100px;
 	color: #626262;
 }
 
-.navigation_li_a {
+.active {
 	color: #71defc;
 }
 
