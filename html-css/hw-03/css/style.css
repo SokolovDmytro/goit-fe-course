@@ -1,97 +1,94 @@
-html {
-  box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+.visually-hidden {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
 }
 
-body,
-p,
-button {
-  font-family: 'Playfair Display', serif;
-  font-style: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #626262;
-}
-
-.wrapper {
-  width: 900;
-  margin: 0 auto;
+.container {
+	width: 900px;
+	margin: 0 auto;
+	font-family: 'Playfair Display';
 }
 
 /* site navigation */
-.navigation ul {
-  text-align: center;
+.navigation_ul {
+	list-style: none;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 77px;
+	box-sizing: border-box;
+	margin-right: 70px;
+	margin-bottom: 104px;
 }
 
-.navigation li {
-  display: inline-block;
-  text-transform: uppercase;
-  margin-top: 75px;
-  margin-right: 120px;
-  margin-bottom: 100px;
+.navigation_li {
+	display: inline;
+	padding-left: 100px;
+	color: #626262;
 }
 
-.navigation :last-child {
-  margin-right: 0;
+.navigation_li_a {
+	color: #71defc;
 }
 
-.navigation li a {
-  text-transform: uppercase;
+.section-ul {
+	list-style: none;
+	box-sizing: border-box;
+	font-size: 0px;
 }
 
-.navigation li a:hover {
-  color: #03a9f4;
+.section-li {
+	width: 420px;
+	display: inline-block;
+	margin-right: 60px;
 }
 
-.post-wrap {
-  font-size: 0;
+.section-li:nth-child(2n) {
+	margin-right: 0px;
 }
 
-.post {
-  display: inline-block;
-  width: 420px;
-  font-size: 14px;
-  margin-right: 60px;
-  margin-bottom: 130px;
+.section-li:nth-last-child(-n +2) {
+	margin-top: 100px;
 }
 
-.post:nth-child(even) {
-  margin-right: 0;
+section h2 {
+	font-size: 30px;
 }
 
-.post:nth-last-child(-n+2) {
-  margin-bottom: 55px;
+.category {
+	padding-top: 40px;
+	padding-bottom: 30px;
+	color: #b4ad9e;
+	font-size: 14px;
 }
 
-.post img {
-  display: block;
-  width: 100%;
-  height: auto;
+.sections-title {
+	margin-bottom: 40px;
+	color: #626262;
 }
 
-.post .category {
-  font: 300 14px 'Ubuntu', sans-serif;
-  text-transform: uppercase;
-  color: #b4ad9e;
-  margin-top: 26px;
-  margin-bottom: 30px;
+.text {
+	color: #626262;
+	font-size: 14px;
 }
 
-.post h2 {
-  font-size: 30px;
-  margin-bottom: 35px;
+.btn-footer {
+	margin-top: 92px;
+	text-align: center;
+	margin-bottom: 35px;
 }
 
 .btn-more {
-  display: block;
-  margin: 0 auto;
-  font-size: 20px;
-  border: 1px solid;
-  padding: 20px 35px;
-  margin-bottom: 75px;
+	padding: 21px 32px;
+	outline: 1px solid #626262;
+	color: #626262;
+	cursor: pointer;
 }
