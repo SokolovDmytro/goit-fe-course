@@ -30,31 +30,44 @@ input[type="radio"].visually-hidden {
 
 /* site navigation */
 
+.page-header {
+	padding-top: 76px;
+	padding-bottom: 104px;
+}
+
 .nav-ul {
 	list-style: none;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 77px;
 	box-sizing: border-box;
 	margin-right: 70px;
-	margin-bottom: 104px;
 }
 
-
-.nav-li {
-	display: inline;
-	padding-left: 100px;
+a {
+	text-decoration: none;
 	color: #626262;
 }
 
-.active {
-	color: #71defc;
+.nav-ul a:hover {
+	color: #03a9f4;
 }
 
+.nav-li {
+	display: inline;
+	margin-right: 100px;
+}
+
+.nav-ul li:last-child {
+	margin-right: 0px;
+}
+
+.images {
+	margin-bottom: 104px;
+}
 .section-ul {
 	list-style: none;
-	box-sizing: border-box;
 	font-size: 0px;
+	padding-bottom: 58px
 }
 
 .section-li {
@@ -75,9 +88,8 @@ section h2 {
 	font-size: 30px;
 }
 
-.category {
-	padding-top: 40px;
-	padding-bottom: 30px;
+.category {	
+	margin-bottom: 32px;
 	color: #b4ad9e;
 	font-size: 14px;
 }
@@ -92,15 +104,17 @@ section h2 {
 	font-size: 14px;
 }
 
-.btn-footer {
-	margin-top: 92px;
-	text-align: center;
-	margin-bottom: 35px;
-}
-
 .btn-more {
+	display: block;
+	margin: 0 auto;
 	padding: 21px 32px;
 	outline: 1px solid #626262;
-	color: #626262;
+	font-size: 20px;
 	cursor: pointer;
+	text-align: center;
+	font-family: "Playfair Display";
+}
+
+.btn-more:hover {
+	color: #626262;
 }
