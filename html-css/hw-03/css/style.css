@@ -39,8 +39,6 @@ input[type="radio"].visually-hidden {
 	list-style: none;
 	text-transform: uppercase;
 	text-align: center;
-	box-sizing: border-box;
-	margin-right: 70px;
 }
 
 a {
@@ -62,8 +60,9 @@ a {
 }
 
 .images {
-	margin-bottom: 104px;
+	margin-bottom: 32px;
 }
+
 .section-ul {
 	list-style: none;
 	font-size: 0px;
@@ -74,6 +73,8 @@ a {
 	width: 420px;
 	display: inline-block;
 	margin-right: 60px;
+	vertical-align: top;
+	margin-bottom: 136px;
 }
 
 .section-li:nth-child(2n) {
@@ -88,7 +89,7 @@ section h2 {
 	font-size: 30px;
 }
 
-.category {	
+.category {
 	margin-bottom: 32px;
 	color: #b4ad9e;
 	font-size: 14px;
@@ -107,7 +108,8 @@ section h2 {
 .btn-more {
 	display: block;
 	margin: 0 auto;
-	padding: 21px 32px;
+	width: 160px;
+	height: 60px;
 	outline: 1px solid #626262;
 	font-size: 20px;
 	cursor: pointer;
@@ -116,5 +118,6 @@ section h2 {
 }
 
 .btn-more:hover {
-	color: #626262;
+	color: #03a9f4;
+	;
 }
