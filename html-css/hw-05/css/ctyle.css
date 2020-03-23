@@ -94,13 +94,13 @@ header {
     display: block;
     content: "";
     background-color: rgba(0, 0, 2, 0.52);
-    }
+}
 
 .slider-img {
     width: 100%;
     object-fit: cover;
     object-position: top;
-    }
+}
 
 .content-wrap {
     position: absolute;
@@ -112,14 +112,14 @@ header {
 }
 
 .slider-btn {
-    position: absolute; 
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
     border: none;
     display: inline-block;
     height: 104px;
     width: 104px;
-    color:#ffffff;    
+    color: #ffffff;
     background-color: rgba(78, 198, 171, 0.65);
     cursor: pointer;
 }
@@ -129,7 +129,7 @@ header {
 }
 
 .slider-btn__prev {
-   left: 0;
+    left: 0;
 }
 
 .slider-btn__next {
@@ -145,7 +145,7 @@ header {
 }
 
 .box-slider-text {
-    display: inline-block; 
+    display: inline-block;
     width: 792px;
     position: absolute;
     top: 50%;
@@ -193,7 +193,6 @@ header {
     margin-top: 32px;
 }
 
-
 h2 {
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
@@ -239,16 +238,33 @@ h2 {
 /* overlay */
 
 .overlay {
-position: relative;
-background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
 }
 
 .overlay-wrap {
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 50%;
+    top: 0;
+    left: 0;
+    
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
 }
+
+.overlay-wrap:hover {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.card-position {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
 
 .btn {
     width: 50px;
@@ -260,10 +276,10 @@ background-color: rgba(0, 0, 0, 0.55);
     border: none;
     outline: 1px solid rgb(255, 255, 255);
 }
-  
+
 .btn:hover {
     background-color: rgb(26, 188, 156);
-    }
+}
 
 .btn:last-child {
     margin-right: 0;
@@ -300,9 +316,9 @@ background-color: rgba(0, 0, 0, 0.55);
     margin-bottom: 0;
 }
 
-.list_block_img  {
+.list_block_img {
     display: block;
-    width: 100%; 
+    width: 100%;
     height: auto;
 }
 
@@ -360,7 +376,7 @@ footer {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 28px;
-    font-weight: 400;    
+    font-weight: 400;
     letter-spacing: -0.32px;
 }
 
