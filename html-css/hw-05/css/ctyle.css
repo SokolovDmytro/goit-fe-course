@@ -6,14 +6,13 @@
     margin: 0px;
 }
 
+body {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
 .conteiner {
     width: 1110px;
     margin: 0 auto;
-    font-family: 'Open Sans', 'Roboto' sans-serif;
-}
-
-.clearfix {
-    overflow: auto;
 }
 
 .clearfix::after {
@@ -86,7 +85,7 @@ header {
     object-position: top;
 }
 
-.slider-wrapper::before {
+.slider_wrapper::before {
     position: absolute;
     top: 0;
     right: 0;
@@ -147,7 +146,7 @@ header {
 
 .box-slider-text {
     display: inline-block; 
-    width: 70%; 
+    width: 792px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -193,6 +192,115 @@ header {
     background-color: #1abc9c;
     margin-top: 32px;
 }
+
+
+h2 {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.featured {
+    padding-top: 104px;
+    padding-bottom: 106px;
+}
+
+.featured_title {
+    color: #515151;
+    line-height: 32px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 132px;
+}
+
+.featured_title::after {
+    content: '';
+    margin: 0 auto;
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin-top: 32px;
+}
+
+.list_block {
+    float: left;
+    margin: 0 30px 30px 0;
+    background-color: rgb(233, 240, 253);
+    list-style-type: none;
+}
+
+/* overlay */
+
+
+
+
+.list_block:nth-child(4n) {
+    margin-right: 0;
+}
+
+.list_block:nth-child(n+5) {
+    margin-bottom: 0;
+}
+
+.list_block-img {
+    display: block;
+}
+
+.list_block-info {
+    display: block;
+    background-color: rgb(50, 50, 50);
+}
+
+.list_block:hover .list_block-info {
+    background-color: rgb(25, 188, 155);
+}
+
+.list_block-title {
+    float: left;
+    margin-left: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.list_block-title a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.list_block-price {
+    width: 54px;
+    height: 40px;
+    float: right;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.44);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
