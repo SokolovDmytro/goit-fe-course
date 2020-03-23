@@ -238,8 +238,59 @@ h2 {
 
 /* overlay */
 
+.overlay {
+position: relative;
+background-color: rgba(0, 0, 0, 0.55);
+}
 
+.overlay-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+}
 
+.btn {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: none;
+    outline: 1px solid rgb(255, 255, 255);
+}
+  
+.btn:hover {
+    background-color: rgb(26, 188, 156);
+    }
+
+.btn:last-child {
+    margin-right: 0;
+}
+
+.btn_cart {
+    width: 168px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    border: none;
+    outline: 1px solid rgb(255, 255, 255);
+    background-color: rgb(50, 50, 50);
+}
+
+.btn_cart:hover {
+    background-color: rgb(26, 188, 156);
+}
+
+.btn_cart a {
+    margin-right: 20px;
+    line-height: 50px;
+}
 
 .list_block:nth-child(4n) {
     margin-right: 0;
@@ -249,8 +300,10 @@ h2 {
     margin-bottom: 0;
 }
 
-.list_block-img {
+.list_block_img  {
     display: block;
+    width: 100%; 
+    height: auto;
 }
 
 .list_block-info {
@@ -290,27 +343,8 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* FOOTER */
+
 footer {
     padding: 38px 0;
     background-color: rgb(50, 50, 50);
