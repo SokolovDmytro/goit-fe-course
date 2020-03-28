@@ -77,6 +77,10 @@ ol {
      list-style: none;
 }
 
+body {
+     font-family: "Montserrat", sans-serif;
+}
+
 h2 {
      font-size: 40px;
      font-weight: 700;
@@ -123,7 +127,6 @@ header {
 
 .nav-list__link {
      color: rgb(34, 34, 34);
-     font-family: "Montserrat", sans-serif;
      font-size: 14px;
      font-weight: 700;
      line-height: 41px;
@@ -146,7 +149,6 @@ header {
 }
 
 .list-item__title {
-     font-family: "Montserrat", sans-serif;
      font-size: 18px;
      font-weight: 700;
      line-height: 74px;
@@ -209,7 +211,7 @@ header {
      padding-top: 100px;
      padding-bottom: 140px;
      background-color: rgb(34, 34, 34);
-     background-image: url('/html-css/hw-07/img/map.png');
+     background-image: url("../img/map.png");
      background-repeat: no-repeat;
      background-position: right bottom;
 }
@@ -221,7 +223,6 @@ header {
 
 .contact-title__main {
      color: rgb(255, 255, 255);
-     font-family: 'Montserrat', sans-serif;
      font-style: normal;
      font-weight: 700;
 }
@@ -309,7 +310,6 @@ input:nth-child(3) {
      color: #bbbbbb;
      font-size: 14px;
      text-transform: uppercase;
-     font-family: 'Montserrat', sans-serif;
      font-weight: 700;
      padding: 9px 54px 9px 10px;
      outline: none;
@@ -326,7 +326,6 @@ input:nth-child(3) {
      height: 66px;
      font-size: 14px;
      text-transform: uppercase;
-     font-family: 'Montserrat', sans-serif;
      font-weight: 700;
      color: #ffffff;
      cursor: pointer;
